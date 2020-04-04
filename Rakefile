@@ -30,4 +30,5 @@ namespace :db do
   task :seed => :environment do
     require_relative './db/seeds.rb'
   end
+  
 end
